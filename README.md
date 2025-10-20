@@ -48,7 +48,7 @@ Expected answer:
 ```bash
 {"prediction": 235.9}
 ```
-#CI/CD Automation workflow
+# CI/CD Automation workflow
 The project uses Github Actions for automation of MLOPS:
 
 ## CI
@@ -60,7 +60,7 @@ The **ci.yml** workflow runs:
 * Training smoke tests
 
 
-#Release (Continuous Deployment) 
+# Release (Continuous Deployment) 
 
 
 # License
