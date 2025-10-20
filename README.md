@@ -48,11 +48,26 @@ Expected answer:
 ```bash
 {"prediction": 235.9}
 ```
+#CI/CD Automation workflow
+The project uses Github Actions for automation of MLOPS:
 
-#License
+## 
+Triggered on: Every push to the ```bash 
+main```
+branch or when a Pull Request is created.
+
+The 
+```bash 
+ci.yml
+```
+ workflow runs:
+
+* Linting checks
+* Training smoke tests
+# License
 Assignment 3 in MAIO course
 
-#Contrubuting
+# Contrubuting
 Every team member of the group did great! Alexander Sätre, Andreas Skånberg, Samuel Laden, Melissa Westberg
 
 
