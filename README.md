@@ -9,20 +9,15 @@ The Project i build to reproduce **MLOps-pipeline** with **GitHub Actions** and 
 
 ## Command to run the project
 
-### Clone the project
-```bash
-git clone https://github.com/Satre03/virtual-diabetes-clinic-triage.git
-cd virtual-diabetes-clinic-triage
-```
-
 Build Docker-image
 ```bash
 docker pull ghcr.io/askanberg/maio-diabetes:v0.1
 ```
 Run containern
 ```bash
-docker run -p 8000:8000 ghcr.io/satre03/virtual-diabetes-clinic-triage:v.01
+docker run -p 8000:8000 ghcr.io/satre03/virtual-diabetes-clinic-triage:v0.1
 ```
+To try the other one print v0.2 instead
 Open in browser:
 ```bash
 http://localhost:8000/health
