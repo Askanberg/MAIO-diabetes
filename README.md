@@ -15,29 +15,9 @@ git clone https://github.com/Satre03/virtual-diabetes-clinic-triage.git
 cd virtual-diabetes-clinic-triage
 ```
 
-Create and activate virtual environment\
-MAC:
-```bash
-python3 -m venv venv
-source venv/bin/activate 
-```
-WINDOWS:
-``` bash
-py -m venv venv
-venv\Scripts\activate
-```
-Installing dependencies
-
-```bash
-pip install -r requirements.txt
-```
-Train model manuelly (not required)
-```bash
-python src/train.py
-```
 Build Docker-image
 ```bash
-docker build -t ghcr.io/satre03/virtual-diabetes-clinic-triage:v.01 .
+docker pull ghcr.io/askanberg/maio-diabetes:v0.1
 ```
 Run containern
 ```bash
