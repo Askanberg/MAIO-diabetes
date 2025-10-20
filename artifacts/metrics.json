@@ -1,0 +1,8 @@
+{
+  "rmse": 53.84286912542571,
+  "precision": null,
+  "recall": null,
+  "delta_vs_prev": {
+    "rmse": 0.6281978876029015
+  }
+}
