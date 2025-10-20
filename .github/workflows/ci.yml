@@ -75,4 +75,4 @@ jobs:
           REPO_LC=$(echo "${REPO_LC}" | tr '[:upper:]' '[:lower:]')
           IMAGE="ghcr.io/${REPO_LC}"
           docker push "${IMAGE}:${TAG_BRANCH}"
-          docker push "${IMAGE}:${TAG_SHA}"
+  
