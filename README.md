@@ -29,7 +29,7 @@ http://localhost:8000/health
 ```
 Excepted answer:
 ```bash
-{"status": "ok", "model_version": "v0.1"}
+{"status": "ok", "model_version": "0.1.0"}
 ```
 Example payload using /predict
 send with curl:
@@ -52,16 +52,6 @@ curl -Method POST http://localhost:8000/predict `
 Expected answer:
 ```bash
 {"prediction": 235.9}
-```
-
-## Ta bort?
-Kör containern
-```bash
-docker run -p 8002:8000 ghcr.io/melissawestberg/diabetes_risk_service:v0.3
-```
-Då nås API:t på:
-```bash
-http://localhost:8002/health
 ```
 
 
