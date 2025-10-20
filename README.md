@@ -67,7 +67,7 @@ ci.yml
 # License
 Assignment 3 in MAIO course
 
-# Contrubuting
+# Contributing
 Every team member of the group did great! Alexander Sätre, Andreas Skånberg, Samuel Laden, Melissa Westberg
 
 
