@@ -48,20 +48,6 @@ Expected answer:
 ```bash
 {"prediction": 235.9}
 ```
-# CI/CD Automation workflow
-The project uses Github Actions for automation of MLOPS:
-
-## CI
-Triggered on: Every push to the **main** branch or when a Pull Request is created.
-
-The **ci.yml** workflow runs:
-
-* Linting checks
-* Training smoke tests
-
-
-# Release (Continuous Deployment) 
-
 
 # License
 Assignment 3 in MAIO course
