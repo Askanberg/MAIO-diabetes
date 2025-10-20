@@ -14,7 +14,7 @@
 
 - The results indicate that the Random Forest model (v0.2) slightly outperforms the Linear Regression model (v0.1) in terms of RMSE, achieving 53.19 compared to 53.85. While the improvement is modest, it demonstrates that introducing a non-linear model can better capture the underlying patterns in the data.
 - Despite the improvement, the RMSE values indicate that there is still considerable prediction error.  
-- 
+  
 ## 4. Reproducibility
 
 - Fixed seed = 42
