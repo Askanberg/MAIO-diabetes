@@ -51,23 +51,22 @@ Expected answer:
 #CI/CD Automation workflow
 The project uses Github Actions for automation of MLOPS:
 
-## 
-Triggered on: Every push to the ```bash 
-main```
-branch or when a Pull Request is created.
+## CI
+Triggered on: Every push to the **main** branch or when a Pull Request is created.
 
-The 
-```bash 
-ci.yml
-```
- workflow runs:
+The **ci.yml** workflow runs:
 
 * Linting checks
 * Training smoke tests
+
+
+#Release (Continuous Deployment) 
+
+
 # License
 Assignment 3 in MAIO course
 
-# Contributing
+# Contrubuting
 Every team member of the group did great! Alexander Sätre, Andreas Skånberg, Samuel Laden, Melissa Westberg
 
 
