@@ -15,7 +15,7 @@ docker pull ghcr.io/askanberg/maio-diabetes:v0.1
 ```
 Run containern
 ```bash
-docker run -p 8000:8000 ghcr.io/satre03/virtual-diabetes-clinic-triage:v0.1
+docker run -p 8000:8000 ghcr.io/askanberg/maio-diabetes:v0.1
 ```
 To try the other one print v0.2 instead
 Open in browser:
