@@ -49,7 +49,11 @@ Expected answer:
 {"prediction": 235.9}
 ```
 
+#License
+Assignment 3 in MAIO course
 
+#Contrubuting
+Every team member of the group did great! Alexander Sätre, Andreas Skånberg, Samuel Laden, Melissa Westberg
 
 
 
